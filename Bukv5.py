@@ -299,7 +299,7 @@ class Bukv5Game:
         self.root = root
         self.root.title("5 букв")  # заголовок окна
         self.root.configure(bg=BG)  # фон окна
-        self.root.geometry("480x780")  # фиксированный размер окна
+        self.root.geometry("480x830")  # фиксированный размер окна
         self.root.resizable(False, False)
 
         # --- Состояние игры ---
